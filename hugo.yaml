@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: "Welcome to my blog"
+    Title: "Welcome to my blog 👋 "
     Content: 개발과 관련한 생각을 정리합니다.
   socialIcons:
     - name: github
@@ -25,7 +25,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    # limit: 5 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
 menu:
@@ -46,6 +46,10 @@ menu:
       name: Search
       url: /search/
       weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
 
 outputs:
   home:
