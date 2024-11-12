@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>객체 on Scripto Blog</title><link>https://scripto1.github.io/myblog2/tags/%EA%B0%9D%EC%B2%B4/</link><description>Recent content in 객체 on Scripto Blog</description><generator>Hugo -- 0.138.0</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2024 14:40:04 +0900</lastBuildDate><atom:link href="https://scripto1.github.io/myblog2/tags/%EA%B0%9D%EC%B2%B4/index.xml" rel="self" type="application/rss+xml"/><item><title>⚖️ ep.2 object와 array 비교</title><link>https://scripto1.github.io/myblog2/posts/ep2/</link><pubDate>Tue, 12 Nov 2024 14:40:04 +0900</pubDate><guid>https://scripto1.github.io/myblog2/posts/ep2/</guid><description>&lt;h2 id="ep2-object와-array-비교">ep2. object와 array 비교&lt;/h2>
+&lt;p>이번에는 Big O 관점에서 객체(object)와 배열(array)이 어떤 장단점을 가졌는지 살펴보자.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>객체(object)&lt;/strong>&lt;br>
+키(key)와 값(value)으로 짝을 이루는 객체는 특정 순서가 없기 때문에 손쉽게 프로퍼티를 추가하거나 삭제할 수 있는 장점이 있다. 따라서 아래 표와 같이 검색을 제외한 대부분 경우 작업이 간단하다. -&amp;gt; O(1). 객체의 특정 프로퍼티를 검색할 때는 객체 안 프로퍼티를 처음부터 하나씩 확인해야 해서 프로퍼티 수(n)에 비례해서 작업 시간도 늘어난다. -&amp;gt; O(n).&lt;/li>
+&lt;/ol>
+&lt;!-- raw HTML omitted -->
+&lt;ol start="2">
+&lt;li>&lt;strong>배열(array)&lt;/strong>&lt;br>
+자료에 순서가 필요할 때는 배열을 사용한다. 배열 안 특정 요소에 접근하기는 수월하지만, 요소를 추가하거나 제거할 때는 상황에 따라 다르다. 배열 마지막에 요소를 추가(push)하거나 제거(pop)하는 자바스크립트 메서드는 한번만 동작하면 된다. -&amp;gt; O(1). 반면에 요소를 배열 앞에 추가(unshift)하거나 제거(shift)하면 나머지 요소의 순서를 재배열해야 해서 요소의 양과 맞물려 작업량이 늘어난다. -&amp;gt; O(n).
+처음 React 프로젝트를 하면서 배열로 만든 데이터를 필요한 곳에 가져오지 못해서 고생한 적이 있었다. 데이터 형식을 객체로 바꾸면 순서와 상관없이 프로퍼티를 쉽게 가져올 수 있다는 부트캠프 동기의 조언을 듣고 문제를 해결했던 기억이 떠오른다. 지금 생각해 보면 부끄럽지만 그 당시에는 배열과 객체를 어떻게 사용해야 하는지 전혀 감을 잡지 못했다. 세상 낯설었던 코드가 조금은 친숙해진 걸 보면 그래도 과거의 나보단 나아진 것 같아 살짝 어깨가 올라간다.&lt;/li>
+&lt;/ol></description></item></channel></rss>
