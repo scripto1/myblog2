@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://scripto1.github.io/myblog2/"
 languageCode: en-us
 title: My New Hugo Site
 theme: PaperMod
