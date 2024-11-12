@@ -1,11 +1,11 @@
 baseURL: "https://scripto1.github.io/myblog2/"
 languageCode: en-us
-title: Hee Yong's Blog
+title: Scripto Blog
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: "Welcome to my blog 환영합니다"
+    Title: "Welcome to my blog"
     Content: 개발과 관련한 생각을 정리합니다.
   socialIcons:
     - name: github
@@ -16,18 +16,40 @@ params:
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
+  ShowPostNavLinks: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: archives
-      name: archives
+      name: Archives
       url: /archives/
       weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+

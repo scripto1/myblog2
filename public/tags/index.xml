@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Hee Yong&#39;s Blog</title>
+    <title>Tags on Scripto Blog</title>
     <link>http://localhost:1313/myblog2/tags/</link>
-    <description>Recent content in Tags on Hee Yong&#39;s Blog</description>
+    <description>Recent content in Tags on Scripto Blog</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 12:25:11 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/myblog2/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSA</title>
+      <link>http://localhost:1313/myblog2/tags/dsa/</link>
+      <pubDate>Tue, 12 Nov 2024 12:25:11 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/tags/dsa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>알고리즘</title>
+      <link>http://localhost:1313/myblog2/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Tue, 12 Nov 2024 12:25:11 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>자료구조</title>
+      <link>http://localhost:1313/myblog2/tags/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</link>
+      <pubDate>Tue, 12 Nov 2024 12:25:11 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/tags/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

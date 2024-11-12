@@ -2,20 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/myblog2/</loc>
+    <loc>http://localhost:1313/myblog2/posts/</loc>
     <lastmod>2024-11-12T14:40:04+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog2/posts/</loc>
+    <loc>http://localhost:1313/myblog2/</loc>
     <lastmod>2024-11-12T14:40:04+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/posts/second/</loc>
     <lastmod>2024-11-12T14:40:04+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/myblog2/categories/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/tags/dsa/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/categories/dsa/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/myblog2/posts/first/</loc>
     <lastmod>2024-11-12T12:25:11+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/myblog2/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/myblog2/tags/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/tags/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</loc>
+    <lastmod>2024-11-12T12:25:11+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/archive/</loc>
   </url>
 </urlset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DSA on Scripto Blog</title>
+    <link>http://localhost:1313/myblog2/tags/dsa/</link>
+    <description>Recent content in DSA on Scripto Blog</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 12:25:11 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog2/tags/dsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ep.1 자료구조와 알고리즘</title>
+      <link>http://localhost:1313/myblog2/posts/first/</link>
+      <pubDate>Tue, 12 Nov 2024 12:25:11 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/posts/first/</guid>
+      <description>&lt;h2 id=&#34;ep1-자료구조와-알고리즘&#34;&gt;ep.1 자료구조와 알고리즘&lt;/h2&gt;
+&lt;p&gt;자료구조와 알고리즘을 공부하다 보면 가장 처음에 마주하는 개념이 바로 Big O 표기법이다.&lt;br&gt;
+요약하자면 내가 만든 코드(알고리즘)가 얼마나 효율적으로 작동하는지 계산하는 방법이다. 같은 문제를 다양한 방법으로 풀었을 때 득과 실을 따져볼 수 있고, 코드를 실행했을 때 걸리는 시간과 소모하는 공간(메모리)을 비교해서 비효율적인 코드를 찾아낼 수 있다. 결국 특정 해법에 가장 알맞은 알고리즘을 찾아내서 프로그램 성능을 개선할 수 있다는 얘기다.&lt;/p&gt;
+&lt;p&gt;물론 여기에는 동일한 기계에서 작동한다는 전제가 있고, 속도, 메모리 사용, 코드의 가독성 등 여러 변수가 존재하기 때문에 정답이 한 개라고 주장하기 어렵다. 똑똑한 사람들이 이미 아래 차트와 같이 각 알고리즘에 가장 적합한 풀이 방식을 잘 정리해 놨으니 감사한 마음으로 소비하면 될 것 같다. 차트에서도 볼 수 있듯이 O(1), O(n) 영역에 내 알고리즘 해법이 위치하면 일단 혼날 일은 없지 않을까 한다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
