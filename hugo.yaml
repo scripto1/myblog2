@@ -1,4 +1,33 @@
 baseURL: "https://scripto1.github.io/myblog2/"
 languageCode: en-us
-title: My New Hugo Site
-theme: PaperMod
+title: Hee Yong's Blog
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Welcome to my blog 환영합니다"
+    Content: 개발과 관련한 생각을 정리합니다.
+  socialIcons:
+    - name: github
+      url: https://github.com/scripto1
+    - name: linkedin
+      url: https://www.linkedin.com/in/hee-yong-kim-69a83b2a0/
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
