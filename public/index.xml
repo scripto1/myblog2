@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Hee Yong&#39;s Blog</title>
     <link>http://localhost:1313/myblog2/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Hee Yong&#39;s Blog</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2024 12:25:11 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 14:40:04 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/myblog2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>http://localhost:1313/myblog2/posts/second/</link>
+      <pubDate>Tue, 12 Nov 2024 14:40:04 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/posts/second/</guid>
+      <description>&lt;h3 id=&#34;github-action으로-블로그-만들기&#34;&gt;github action으로 블로그 만들기&lt;/h3&gt;
+&lt;p&gt;이것도 만들기 쉽지 않네 ㅠㅠ&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First</title>
       <link>http://localhost:1313/myblog2/posts/first/</link>
