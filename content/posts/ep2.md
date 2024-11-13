@@ -7,7 +7,7 @@ tags: ["객체", "DSA", "배열"]
 categories: ["DSA"]
 ---
 
-## ep2. object와 array 비교
+## object와 array 비교
 
 이번에는 Big O 관점에서 객체(object)와 배열(array)이 어떤 장단점을 가졌는지 살펴보자.
 

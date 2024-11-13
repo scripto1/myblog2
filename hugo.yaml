@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: "Welcome to my blog 👋 "
+    Title: "Welcome to my blog "
     Content: 개발과 관련한 생각을 정리합니다.
   socialIcons:
     - name: github

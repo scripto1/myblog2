@@ -6,8 +6,25 @@
     <description>Recent content in Posts on Scripto Blog</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2024 14:40:04 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 12:44:33 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/myblog2/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>알고리즘(algorithm)이란 무엇인가?</title>
+      <link>http://localhost:1313/myblog2/posts/ep3/</link>
+      <pubDate>Wed, 13 Nov 2024 12:44:33 +0900</pubDate>
+      <guid>http://localhost:1313/myblog2/posts/ep3/</guid>
+      <description>&lt;h2 id=&#34;알고리즘algorithm이란-무엇인가&#34;&gt;알고리즘(algorithm)이란 무엇인가?&lt;/h2&gt;
+&lt;p&gt;알고리즘은 특정 일을 처리하기 위한 일련의 과정이다. 컴퓨터 공학 관점에서는 데이터를 처리하기 위한 공정이지만 일반적으로는 내가 본 유튜브 영상과 관련된 영상을 추천해 주거나 내가 주문한 상품과 유사한 상품을 구매하라고 부추기는 소비 전략으로 알려진 듯하다.&lt;/p&gt;
+&lt;p&gt;여기서는 컴퓨터 공학 관점에서 문제를 어떻게 해결할지 공부하려고 한다. (아래 내용은 Colt Steele의 알고리즘 강의를 보면서 요약한 내용이다.)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;주어진 문제를 나만의 문장으로 재정의하고 문제가 제공하는 input과 output 등 정보가 충분한지 판단한다.&lt;/li&gt;
+&lt;li&gt;문제를 쉽게 이해할 수 있도록 간단한 input과 output으로 예시를 만들어보고, 가능하다면 더 복잡한 예시나 잘못된 input을 대입해 본다.&lt;/li&gt;
+&lt;li&gt;해결 방법을 여러 단계로 나누어 설명하거나 적는다.&lt;/li&gt;
+&lt;li&gt;문제가 어려우면 문제를 단순화해서 풀어보고, 답이 나온다면 어려운 부분에 대입해 본다.&lt;/li&gt;
+&lt;li&gt;문제를 푼 후에 회고와 리팩토링을 해본다. 다른 방법으로 해답을 찾을 수 있는지, 다른 문제에도 적용할 수 있는지, 속도나 메모리 사용을 최적화할 수 있는지를 검토한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;문제를 풀다 보니 객체 프로퍼티 값을 가져오는 방법이 두 가지인 걸 알게 되었다. 그래서 객체 프로퍼티 값에 접근할 때 사용하는 점 표기법(dot notation)과 대괄호 표기법(square bracket notation)의 차이를 알아봤다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>⚖️ ep.2 object와 array 비교</title>
       <link>http://localhost:1313/myblog2/posts/ep2/</link>
