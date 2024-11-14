@@ -13,7 +13,7 @@
       <link>http://localhost:1313/myblog2/posts/ep2/</link>
       <pubDate>Tue, 12 Nov 2024 14:40:04 +0900</pubDate>
       <guid>http://localhost:1313/myblog2/posts/ep2/</guid>
-      <description>&lt;h2 id=&#34;ep2-object와-array-비교&#34;&gt;ep2. object와 array 비교&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;object와-array-비교&#34;&gt;object와 array 비교&lt;/h2&gt;
 &lt;p&gt;이번에는 Big O 관점에서 객체(object)와 배열(array)이 어떤 장단점을 가졌는지 살펴보자.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;객체(object)&lt;/strong&gt;&lt;br&gt;

@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/myblog2/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">
-<link crossorigin="anonymous" href="/myblog2/assets/css/stylesheet.4b74710f9aa4f51203522442ceeccc2f90f17b0819733e27d9fceb6ca0aa2e36.css" integrity="sha256-S3RxD5qk9RIDUiRCzuzML5DxewgZcz4n2fzrbKCqLjY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/myblog2/assets/css/stylesheet.6353c11f7e13f78b8b60745e1b045ed4eee15ba9831e14aaa9af299f168cee49.css" integrity="sha256-Y1PBH34T94uLYHReGwRe1O7hW6mDHhSqqa8pnxaM7kk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/myblog2/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/myblog2/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/myblog2/favicon-32x32.png">
@@ -136,7 +136,21 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">알고리즘(algorithm)이란 무엇인가?
+    <h2 class="entry-hint-parent">ep4. frequency counter
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>frequence counter 주말에 조금 쉬었더니 매일 공부하기로 했던 굳은 다짐이 느슨해지려고 한다. ㅠ 자, 다시 불태워보자. 알고리즘 문제를 해결하는 여러 가지 패턴 중에 frequency counter가 있다. 두 개의 배열이나 문자열을 새로운 {키: 값}으로 담고 해당 키나 값의 개수를 찾아 비교하는 방법이다. 예시로 애너그램(anagram: 동일한 단어의 순서를 바꾸어 다른 의미의 단어를 만드는 방법)을 확인하는 문제를 풀어봤다.
+function validAnagram(str1, str2) { if (str1.length !== str2.length) { return false; } 먼저 두 단어의 길이가 같지 않으면 애너그램 형식에 어긋나기 때문에 거짓이다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-13 12:58:43 +0900 KST'>November 13, 2024</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to ep4. frequency counter" href="http://localhost:1313/myblog2/posts/ep4/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">🔍 ep3. 알고리즘(algorithm)이란 무엇인가?
     </h2>
   </header>
   <div class="entry-content">
@@ -146,7 +160,7 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-11-13 12:44:33 +0900 KST'>November 13, 2024</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to 알고리즘(algorithm)이란 무엇인가?" href="http://localhost:1313/myblog2/posts/ep3/"></a>
+  <a class="entry-link" aria-label="post link to 🔍 ep3. 알고리즘(algorithm)이란 무엇인가?" href="http://localhost:1313/myblog2/posts/ep3/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -155,7 +169,7 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>ep.1 자료구조와 알고리즘 자료구조와 알고리즘을 공부하다 보면 가장 처음에 마주하는 개념이 바로 Big O 표기법이다.
+    <p>자료구조와 알고리즘 자료구조와 알고리즘을 공부하다 보면 가장 처음에 마주하는 개념이 바로 Big O 표기법이다.
 요약하자면 내가 만든 코드(알고리즘)가 얼마나 효율적으로 작동하는지 계산하는 방법이다. 같은 문제를 다양한 방법으로 풀었을 때 득과 실을 따져볼 수 있고, 코드를 실행했을 때 걸리는 시간과 소모하는 공간(메모리)을 비교해서 비효율적인 코드를 찾아낼 수 있다. 결국 특정 해법에 가장 알맞은 알고리즘을 찾아내서 프로그램 성능을 개선할 수 있다는 얘기다.
 물론 여기에는 동일한 기계에서 작동한다는 전제가 있고, 속도, 메모리 사용, 코드의 가독성 등 여러 변수가 존재하기 때문에 정답이 한 개라고 주장하기 어렵다. 똑똑한 사람들이 이미 아래 차트와 같이 각 알고리즘에 가장 적합한 풀이 방식을 잘 정리해 놨으니 감사한 마음으로 소비하면 될 것 같다. 차트에서도 볼 수 있듯이 O(1), O(n) 영역에 내 알고리즘 해법이 위치하면 일단 혼날 일은 없지 않을까 한다.
 ...</p>

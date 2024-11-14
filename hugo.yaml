@@ -28,6 +28,8 @@ params:
     # limit: 5 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+  customCSS: ["css/custom.css"]
+
 menu:
   main:
     - identifier: categories

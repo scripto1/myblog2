@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/myblog2/categories/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/categories/dsa/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/posts/ep4/</loc>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/myblog2/tags/frequency-counter/</loc>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/posts/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/tags/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
-    <lastmod>2024-11-13T12:44:33+09:00</lastmod>
+    <lastmod>2024-11-13T12:58:43+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/myblog2/posts/ep3/</loc>
     <lastmod>2024-11-13T12:44:33+09:00</lastmod>
